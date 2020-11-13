@@ -1,16 +1,23 @@
-import Layout from '../components/Layout'
+import Layout from '../components/Layout.tsx'
 import PostList from '../components/PostList'
 import matter from 'gray-matter'
 
+
 export default function Home({title , description ,... props}) {
+
   return (
     <>
       <Layout pageTitle={`${title}`} description={description}>
-          <PostList posts = {props.posts} />
+        <img src="../static/landing.png" alt="picutre of a guy carrying messages" />
+        <h2 className="landing-page-title"> Full-Stack Web Developer </h2>
+        <p> I am Full-Stack Web Developer, passionate aboute solutions that bring people together; and, make communities, aiming to solve world’s problems, one at a time. </p>
       </Layout>
     </>
   )
 }
+
+
+const postlist = <PostList  />//posts = {props.posts}
 
 
 export async function getStaticProps() {

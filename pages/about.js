@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../components/Layout.tsx'
 
 export default function About({ title, description, ...props }){
   return (
