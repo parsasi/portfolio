@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
-export default function About({ title, description, ...props }){
+export default function Portfolio({ title, description, ...props }){
   return (
     <>
       <style jsx>{`
@@ -94,7 +94,7 @@ export default function About({ title, description, ...props }){
           text-align:center; 
         }
       `}</style>
-      <Layout pageTitle={`${title} | About`} description={description}>
+      <Layout pageTitle={`${title} | Portfolio`} description={description}>
         <div className="portfolio-container">
           <div className="portfolio-header">
               <h2> Projects </h2>

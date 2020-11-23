@@ -1,6 +1,4 @@
 import Layout from '../components/Layout'
-import PostList from '../components/PostList'
-import matter from 'gray-matter'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 import { useEffect } from 'react'
