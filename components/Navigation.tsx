@@ -1,6 +1,7 @@
 import React from 'react'
 import * as CSS from 'csstype';
 import styleConstants from '../styles/constants'
+import NavLink from './NavLink'
 
 
 const navigationStyles : CSS.Properties = {
@@ -11,7 +12,7 @@ const navigationStyles : CSS.Properties = {
 export default function Navigation(props) {
     return (
         <nav className="navigation" style={navigationStyles}>
-            <style jsx>{`
+             <style jsx>{`
                 .navigation{
                     width : 100%;
                     padding-top : 20px;
@@ -36,11 +37,11 @@ export default function Navigation(props) {
                 }
             `}</style>
             <ul>
-                <li className="navigation-list-item"><a  className="navigation-list-link current"> HomePage </a></li>
-                <li className="navigation-list-item"><a  className="navigation-list-link"> AboutMe </a></li>
-                <li className="navigation-list-item"><a  className="navigation-list-link"> Blog </a></li>
-                <li className="navigation-list-item"><a  className="navigation-list-link"> Resume</a></li>
-                <li className="navigation-list-item"><a  className="navigation-list-link"> ContactMe </a></li>
+                <li className="navigation-list-item"><NavLink href="/"><span className="navigation-list-link">HomePage</span></NavLink></li>
+                <li className="navigation-list-item"><NavLink href="/portfolio"><span className="navigation-list-link">portfolio</span></NavLink></li>
+                <li className="navigation-list-item"><NavLink href="blog"><span className="navigation-list-link">Blog</span></NavLink></li>
+                <li className="navigation-list-item"><NavLink href="resume"><span className="navigation-list-link">Resume</span></NavLink></li>
+                <li className="navigation-list-item"><NavLink href="contact"><span className="navigation-list-link">ContactMe</span></NavLink></li>
             </ul>
         </nav>
     )

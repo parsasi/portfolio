@@ -7,7 +7,6 @@ export default function SocialLinks(props){
         <div className="social-links">
             <style jsx>{`
                 .social-links{
-                    margin-top:100px;
                 }
 
                 .social-links ul{

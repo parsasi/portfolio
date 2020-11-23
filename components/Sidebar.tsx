@@ -12,6 +12,9 @@ export default function Sidebar(props){
                     flex-grow : 1;
                     height:100%;
                     max-width: 400px;
+                    display:flex;
+                    flex-direction:column;  
+                    justify-content:space-evenly;
                 }
 
                 .logo-container{
