@@ -39,9 +39,9 @@ export default function Navigation(props) {
             <ul>
                 <li className="navigation-list-item"><NavLink href="/"><span className="navigation-list-link">HomePage</span></NavLink></li>
                 <li className="navigation-list-item"><NavLink href="/portfolio"><span className="navigation-list-link">portfolio</span></NavLink></li>
-                <li className="navigation-list-item"><NavLink href="blog"><span className="navigation-list-link">Blog</span></NavLink></li>
-                <li className="navigation-list-item"><NavLink href="resume"><span className="navigation-list-link">Resume</span></NavLink></li>
-                <li className="navigation-list-item"><NavLink href="contact"><span className="navigation-list-link">ContactMe</span></NavLink></li>
+                <li className="navigation-list-item"><NavLink href="/blog"><span className="navigation-list-link">Blog</span></NavLink></li>
+                <li className="navigation-list-item"><NavLink href="/resume"><span className="navigation-list-link">Resume</span></NavLink></li>
+                <li className="navigation-list-item"><NavLink href="/contact"><span className="navigation-list-link">ContactMe</span></NavLink></li>
             </ul>
         </nav>
     )

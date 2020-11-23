@@ -54,7 +54,7 @@ export default function PostList({ posts }) {
           justify-content:space-evenly;
           margin-top:20px;
         }
-        .blog-project-links-container a{
+        .blog-project-link{
           width:80%;
           display:inline-block;
           padding:4px;
@@ -73,10 +73,10 @@ export default function PostList({ posts }) {
                   <img src={post.frontmatter.image} alt={post.frontmatter.title}/>
                 </div>
                 <div className="blog-project-content">
-                  <h4> {post.frontmatter.title} </h4>
+                  <h4> {post.frontmatter.title}</h4>
                   <p>{post.frontmatter.summery}</p>
                   <div className="blog-project-links-container">
-                    <a href={{pathname : `/post/${post.slug}`}}> <FontAwesomeIcon icon={faBookOpen} /> Read More </a>
+                    <Link href={{pathname : `/posts/${post.slug}`}}><a className="blog-project-link"><FontAwesomeIcon icon={faBookOpen} /> Read More </a></Link>
                   </div>
                 </div>
               </div>
