@@ -11,14 +11,13 @@ export default function Sidebar(props){
                 .sidebar{
                     flex-grow : 1;
                     height:100%;
-                    max-width: 400px;
+                    width:25%;
                     display:flex;
                     flex-direction:column;  
                     justify-content:space-evenly;
                 }
 
                 .logo-container{
-                    max-width:400px;
                     overflow:hidden;
                 }
 

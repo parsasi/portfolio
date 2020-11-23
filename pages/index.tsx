@@ -33,7 +33,7 @@ export default function Home({title , description ,... props}) {
             min-height:2000px;
           }
           .landing-content-first{
-            position:absolute;s
+            position:absolute;
             top:0;
             left:0;
             width:100%;

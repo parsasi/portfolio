@@ -17,6 +17,7 @@ export default function Main (props) {
 
               .content{
                 flex-grow:2;
+                width:75%;
                 height:100%;
                 overflow-y: scroll;
                 overflow-x: hidden;
