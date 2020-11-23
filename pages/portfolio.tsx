@@ -103,7 +103,7 @@ export default function Portfolio({ title, description, ...props }){
           <div className="portfolio-projects">
             <div className="portfolio-project">
               <div className="portfolio-project-image-container">
-                <img src="https://unsplash.com/photos/hGV2TfOh0ns/download?force=true&w=640" alt="Project title"/>
+                <img src="https://unsplash.com/photos/IKUYGCFmfw4/download?force=true&w=640" alt="Project title"/>
               </div>
               <div className="portfolio-project-content">
                 <h4> Project Title </h4>
@@ -132,11 +132,42 @@ export default function Portfolio({ title, description, ...props }){
 
             <div className="portfolio-project">
               <div className="portfolio-project-image-container">
-                <img src="https://unsplash.com/photos/hGV2TfOh0ns/download?force=true&w=640" alt="Project title"/>
+                <img src="https://unsplash.com/photos/DErxVSSQNdM/download?force=true&w=640" alt="Project title"/>
+              </div>
+              <div className="portfolio-project-content">
+                <h4> Project Title </h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum is simply dummy text of the printing and typesetting industry. orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <div className="portfolio-project-links-container">
+                  <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
+                  <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div className="portfolio-project">
+              <div className="portfolio-project-image-container">
+                <img src="https://unsplash.com/photos/bYiw48KLbmw/download?force=true&w=640" alt="Project title"/>
               </div>
               <div className="portfolio-project-content">
                 <h4> Project Title </h4>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <div className="portfolio-project-links-container">
+                  <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
+                  <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="portfolio-project">
+              <div className="portfolio-project-image-container">
+                <img src="https://unsplash.com/photos/xNKy-Cu20d4/download?force=true&w=640" alt="Project title"/>
+              </div>
+              <div className="portfolio-project-content">
+                <h4> Project Title </h4>
+                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
                 <div className="portfolio-project-links-container">
                   <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
                   <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
