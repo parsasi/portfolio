@@ -4,7 +4,7 @@ import PostList from '../components/PostList'
 import styleConstants from '../styles/constants'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faPhone , faAt } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 export default function Contact({ title, description, ...props }){
   return (
@@ -156,7 +156,7 @@ export default function Contact({ title, description, ...props }){
                   </div>
                   <div className="contact-info-item">
                         <div className="contact-info-item-top">
-                              <FontAwesomeIcon icon={faLinkedin} />
+                              <FontAwesomeIcon icon={faLinkedinIn} />
                           </div>
                         <div className="contact-info-item-bottom">
                           <p><a href="https://linkedin.com/in/parsasi" target="_blank">Parsasi</a></p>

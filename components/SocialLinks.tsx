@@ -1,6 +1,6 @@
 import React from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faLinkedinIn , faGithubSquare , faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin , faGithubSquare , faTwitterSquare } from '@fortawesome/free-brands-svg-icons'
 
 export default function SocialLinks(props){
     return (
@@ -25,9 +25,9 @@ export default function SocialLinks(props){
                 }
             `}</style>
             <ul>
-                <li><a href="" target="_blank"> <FontAwesomeIcon icon={faTwitterSquare} /> </a></li>
-                <li><a href="" target="_blank"> <FontAwesomeIcon icon={faLinkedinIn} /> </a></li>
-                <li><a href="" target="_blank"> <FontAwesomeIcon icon={faGithubSquare} /> </a></li>
+                <li><a href="http://twitter.com/parsas_si" target="_blank"> <FontAwesomeIcon icon={faTwitterSquare} /> </a></li>
+                <li><a href="https://linkedin.com/in/parsasi" target="_blank"> <FontAwesomeIcon icon={faLinkedin} /> </a></li>
+                <li><a href="https://github.com/parsasi" target="_blank"> <FontAwesomeIcon icon={faGithubSquare} /> </a></li>
             </ul>
         </div>
     )
