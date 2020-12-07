@@ -103,28 +103,14 @@ export default function Portfolio({ title, description, ...props }){
           <div className="portfolio-projects">
             <div className="portfolio-project">
               <div className="portfolio-project-image-container">
-                <img src="https://unsplash.com/photos/IKUYGCFmfw4/download?force=true&w=640" alt="Project title"/>
+                <img src="../static/cocode.png" alt="Project title"/>
               </div>
               <div className="portfolio-project-content">
-                <h4> Project Title </h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <h4> CoCode </h4>
+                <p>CoCode is a one-on-one tutoring application geared towards those who are interested in, or pursuing, the field of development/programming.</p>
                 <div className="portfolio-project-links-container">
-                  <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
-                  <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="portfolio-project">
-              <div className="portfolio-project-image-container">
-                <img src="https://unsplash.com/photos/hGV2TfOh0ns/download?force=true&w=640" alt="Project title"/>
-              </div>
-              <div className="portfolio-project-content">
-                <h4> Project Title </h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                <div className="portfolio-project-links-container">
-                  <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
-                  <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
+                  <a href="https://github.com/parsasi/cocode"> <FontAwesomeIcon icon={faGithub} /> Github </a>
+                  <a href="http://cocode.space"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
                 </div>
               </div>
             </div>
@@ -145,14 +131,13 @@ export default function Portfolio({ title, description, ...props }){
             </div>
 
 
-
             <div className="portfolio-project">
               <div className="portfolio-project-image-container">
-                <img src="https://unsplash.com/photos/bYiw48KLbmw/download?force=true&w=640" alt="Project title"/>
+                <img src="../static/codejar.png" alt="Project title"/>
               </div>
               <div className="portfolio-project-content">
-                <h4> Project Title </h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <h4> CodeJar </h4>
+                <p>Code Jar is the tool for live coding demonstrations. It provides you with IntelliSense, go-offline key, and much more!</p>
                 <div className="portfolio-project-links-container">
                   <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
                   <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
@@ -163,14 +148,29 @@ export default function Portfolio({ title, description, ...props }){
 
             <div className="portfolio-project">
               <div className="portfolio-project-image-container">
-                <img src="https://unsplash.com/photos/xNKy-Cu20d4/download?force=true&w=640" alt="Project title"/>
+                <img src="https://unsplash.com/photos/bYiw48KLbmw/download?force=true&w=640" alt="Project title"/>
               </div>
               <div className="portfolio-project-content">
                 <h4> Project Title </h4>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <div className="portfolio-project-links-container">
+                  <a href="https://github.com/parsasi/lustr"> <FontAwesomeIcon icon={faGithub} /> Github </a>
+                  <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="portfolio-project">
+              <div className="portfolio-project-image-container">
+                <img src="../static/lustr.png" alt="Project title"/>
+              </div>
+              <div className="portfolio-project-content">
+                <h4> Lustr </h4>
+                <p>Just like Lustr, each time the relationship seems to be progressing, hidden information is made visible. This way you build a longer lasting relationship.</p>
                 <div className="portfolio-project-links-container">
                   <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
-                  <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
+                  {/* <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a> */}
                 </div>
               </div>
             </div>
