@@ -169,14 +169,14 @@ export default function Portfolio({ title, description, ...props }){
 
             <div className="portfolio-project">
               <div className="portfolio-project-image-container">
-                <img src="https://unsplash.com/photos/bYiw48KLbmw/download?force=true&w=640" alt="Project title"/>
+                <img src="../static/stockup.png" alt="Project title"/>
               </div>
               <div className="portfolio-project-content">
-                <h4> Project Title </h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                <h4> Stock Up </h4>
+                <p> Stock Up is a Windows Form Application store management application. It utilizes Entity Framework and layer-based programming to ensure security and scalability. </p>
                 <div className="portfolio-project-links-container">
-                  <a href="https://github.com/parsasi/lustr"> <FontAwesomeIcon icon={faGithub} /> Github </a>
-                  <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a>
+                  <a href="https://github.com/parsasi/stockup"> <FontAwesomeIcon icon={faGithub} /> Github </a>
+                  {/* <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a> */}
                 </div>
               </div>
             </div>
@@ -190,7 +190,7 @@ export default function Portfolio({ title, description, ...props }){
                 <h4> Lustr </h4>
                 <p>Just like Lustr, each time the relationship seems to be progressing, hidden information is made visible. This way you build a longer lasting relationship.</p>
                 <div className="portfolio-project-links-container">
-                  <a href="https://github.com"> <FontAwesomeIcon icon={faGithub} /> Github </a>
+                  <a href="https://github.com/parsasi/lustr"> <FontAwesomeIcon icon={faGithub} /> Github </a>
                   {/* <a href="https://github.com"> <FontAwesomeIcon icon={faExternalLinkAlt} /> See Live </a> */}
                 </div>
               </div>
