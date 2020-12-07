@@ -92,6 +92,53 @@ export default function Contact({ title, description, ...props }){
           border-radius:10px;
           background-color:${styleConstants.color.primary[0]}
         }
+        .resume-section.experience-education{
+          flex-direction:row !important;
+          justify-content:space-between;
+        }
+        .experience{
+          width:calc(70% - 10px);
+        }
+        .education{
+          width:calc(30% - 10px);
+        }
+        .experience-header , .education-header{
+          display:flex;
+          justify-content:flex-end;
+        }
+        .experience-header > h3 , .education-header > h3{
+          font-family:${styleConstants.fonts.heading};
+          letter-spacing:0.4rem;
+          font-size:1.2rem;
+          color:${styleConstants.color.secondary[0]};
+        }
+        .experience-item{
+          background-color:${styleConstants.color.secondary[2]};
+          color:${styleConstants.color.primary[1]};
+          padding:20px 10px;
+          margin-top:20px;
+        }
+        .education-item{
+          background-color:${styleConstants.color.secondary[2]};
+          color:${styleConstants.color.primary[1]};
+          padding:20px 10px;
+          margin-top:20px;
+        }
+        .experience-top-header{
+          margin-bottom:5px;
+        }
+        .experience-top-dates , .education-dates{
+            font-size:0.9rem;
+        }
+        .experience-bottom{
+          margin-top:10px;
+        }
+        .education-title{
+          margin-bottom:5px;
+        }
+        .education-bottom{
+          margin-top:10px;
+        }
       `}</style>
       <Layout pageTitle={`${title} | Resume`} description={description}>
         <div className="resume-container">
@@ -195,6 +242,65 @@ export default function Contact({ title, description, ...props }){
 
               </div>
 
+            </div>
+          
+            <div className="resume-section experience-education">
+              <div className="experience">
+                  <div className="experience-header">
+                    <h3> Experience </h3>
+                  </div>
+                  <div className="experience-content">
+
+                    <div className="experience-item">
+                        <div className="experience-top">
+                          <div className="experience-top-header">
+                            <h4> Camera Speciallist </h4>
+                            <h5> London Drugs - Coquitlam, BC </h5>
+                          </div>
+                          <div className="experience-top-dates">
+                            <span> August 2019 </span> - <span> Present </span>
+                          </div>
+                        </div>
+                        <div className="experience-bottom">
+                          <p> Recommended cameras and lenses to customers, thoroughly explaining details. Built and maintained long-term relationship with customers. </p>
+                        </div>
+                    </div>
+
+                    <div className="experience-item">
+                        <div className="experience-top">
+                          <div className="experience-top-header">
+                            <h4> Freelance Web Designer </h4>
+                            <h5>  </h5>
+                          </div>
+                          <div className="experience-top-dates">
+                            <span> May 2018 </span> - <span> Present </span>
+                          </div>
+                        </div>
+                        <div className="experience-bottom">
+                          <p> Targeted and engaged with potential clients, through social media and community. Performed analysis on customer's needs, during the pre-development stage. Provided the customer with thorough and comprehensive documentation. </p>
+                        </div>
+                    </div>
+
+                  </div>
+              </div>
+              <div className="education">
+                  <div className="education-header">
+                    <h3> Education </h3>
+                  </div>
+                  <div className="education-content">
+
+                      <div className="education-item">
+                        <div className="education-top">
+                            <div className="education-title">  <h4> BCIT Full-Stack Web Development </h4> </div>
+                            <div className="education-dates">  <span> September 2019 </span> - <span> June 2021 </span> </div>
+                        </div>
+                        <div className="education-bottom">
+                          <p> Earned hands-on experience with various web technologies and frameworks. Worked closely in groups, focusing on group projects. Gained knowledge about Agile Methodology, User Experiance, collaboration, etc.  </p>
+                        </div>
+                      </div>
+
+                  </div>
+              </div>
             </div>
           </div>
         </div>
