@@ -41,6 +41,14 @@ export default function Blog({ title, description, ...props }){
           column-fill: auto;
         }
 
+        @media only screen and (max-width: 1100px){
+          .blog-projects{
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+            column-count: 1;
+          }
+        }
+
         
       `}</style>
       <Layout pageTitle={`${title} | Blog`} description={description}>

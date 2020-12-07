@@ -93,6 +93,27 @@ export default function Portfolio({ title, description, ...props }){
           border:2px solid;
           text-align:center; 
         }
+
+        @media only screen and (max-width: 1300px){
+          .portfolio-projects{
+
+            -webkit-column-count: 2 !important;
+            -moz-column-count: 2 !important;
+            column-count: 2 !important;
+
+          }
+        }
+
+        @media only screen and (max-width: 900px) {
+          .portfolio-projects{
+
+            -webkit-column-count: 1 !important;
+            -moz-column-count: 1 !important;
+            column-count: 1 !important;
+
+          }
+        
+        }
       `}</style>
       <Layout pageTitle={`${title} | Portfolio`} description={description}>
         <div className="portfolio-container">

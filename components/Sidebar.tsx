@@ -76,7 +76,12 @@ export default function Sidebar(props){
                         .sidebar{
                             display:none;
                         }
+                    }
 
+                    @media only screen and (max-width: 700px){
+                        .sidebar-mobile{
+                            width:100%;
+                        }
                     }
 
             `}</style>
