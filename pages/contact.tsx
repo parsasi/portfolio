@@ -130,6 +130,18 @@ export default function Contact({ title, description, ...props }){
           transform: scale(1.02)
         }
 
+        @media only screen and (max-width: 1350px){
+          .contact-info-container{
+            flex-wrap:wrap;
+            height:auto;
+            justify-content:center;
+          }
+          .contact-info-item{
+            width:50%;
+          }
+        }
+
+
       `}</style>
       <Layout pageTitle={`${title} | Contact Me`} description={description}>
         <div className="contact-container">
